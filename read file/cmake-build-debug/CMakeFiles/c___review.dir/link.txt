@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/c___review.dir/text_file_reading.cpp.o -o c___review.exe -Wl,--out-implib,libc___review.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
