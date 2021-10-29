@@ -19,8 +19,8 @@ int main(){
     }
     float sum = 0;
     for (int i: vector) {
-        sum += i;
+        sum += float(i);
     }
-    cout << "\nThe average of all number you entered in the vector is " << sum / int(vector.size());
+    cout << "\nThe average of all number you entered in the vector is " << sum / float(vector.size());
     return 0;
 };
