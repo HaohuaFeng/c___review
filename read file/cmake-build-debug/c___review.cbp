@@ -8,82 +8,99 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/e/c++ review/read file/cmake-build-debug"/>
+				<Option working_dir="E:/c++ review/read file/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/e/c++ review/read file/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/e/c++ review/read file/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="c___review">
-				<Option output="/cygdrive/e/c++ review/read file/cmake-build-debug/c___review.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/e/c++ review/read file/cmake-build-debug"/>
+				<Option output="E:/c++ review/read file/cmake-build-debug/c___review.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/c++ review/read file/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 c___review"/>
-					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 c___review"/>
+					<CompileFile command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="c___review/fast">
-				<Option output="/cygdrive/e/c++ review/read file/cmake-build-debug/c___review.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/e/c++ review/read file/cmake-build-debug"/>
+				<Option output="E:/c++ review/read file/cmake-build-debug/c___review.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/c++ review/read file/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/personal/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 c___review/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/c++\ review/read\ file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 c___review/fast"/>
+					<CompileFile command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/c++ review/read file/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/c++ review/read file/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/personal/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c++ review/read file/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/e/c++ review/read file/text_file_reading.cpp">
+		<Unit filename="E:/c++ review/circlar sorted linked list/circular_sorted_linked_list.cpp">
 			<Option target="c___review"/>
 		</Unit>
-		<Unit filename="/cygdrive/e/c++ review/read file/CMakeLists.txt">
+		<Unit filename="E:/c++ review/circlar sorted linked list/circular_sorted_linked_list.h">
+			<Option target="c___review"/>
+		</Unit>
+		<Unit filename="E:/c++ review/circlar sorted linked list/main.cpp">
+			<Option target="c___review"/>
+		</Unit>
+		<Unit filename="E:/c++ review/date class/date.h">
+			<Option target="c___review"/>
+		</Unit>
+		<Unit filename="E:/c++ review/date class/driver.cpp">
+			<Option target="c___review"/>
+		</Unit>
+		<Unit filename="E:/c++ review/read file/text_file_reading.cpp">
+			<Option target="c___review"/>
+		</Unit>
+		<Unit filename="E:/c++ review/read file/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

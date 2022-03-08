@@ -1,4 +1,4 @@
-ToolSet: 3.2.0 (local)@C:\cygwin64
+ToolSet: w64 9.0 (local)@C:\personal\CLion 2021.3.3\bin\mingw
 Options: 
 
 Options:

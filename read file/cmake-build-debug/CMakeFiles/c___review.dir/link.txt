@@ -1,1 +1,3 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/c___review.dir/text_file_reading.cpp.o -o c___review.exe -Wl,--out-implib,libc___review.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+"C:\personal\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\c___review.dir/objects.a
+C:\personal\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\c___review.dir/objects.a @CMakeFiles\c___review.dir\objects1.rsp
+C:\personal\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\c___review.dir/objects.a -Wl,--no-whole-archive -o c___review.exe -Wl,--out-implib,libc___review.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\c___review.dir\linklibs.rsp

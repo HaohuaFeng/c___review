@@ -1,4 +1,4 @@
-C:\Users\haohu\AppData\Local\JetBrains\CLion2021.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/cygdrive/e/c++ review/read file"
+"C:\personal\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\c++ review\read file"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/e/c++ review/read file/cmake-build-debug
+-- Build files have been written to: E:/c++ review/read file/cmake-build-debug
